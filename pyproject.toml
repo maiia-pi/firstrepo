@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "first-project"
+version = "0.1.0"
+description = ""
+authors = ["Maiia Pivovarova <pivovarovamv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "first_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+selenium = "^4.6.0"
+webdriver-manager = "^3.8.5"
+flake8 = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
